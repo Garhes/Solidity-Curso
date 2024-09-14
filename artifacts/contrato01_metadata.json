@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nuevosaludo",
+						"type": "string"
+					}
+				],
+				"name": "guardarsaludo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "leerSaludo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "saludo_e",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contrato01.sol": "contrato01"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contrato01.sol": {
+			"keccak256": "0xc667fa2ad466ada8b680a3c854e6671e9f9ad415a343b0c98b99cd30c6dbcd94",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://edc83ffba39ac8f7668ee233fd36d0b09689ad0dae23b9d841e64dc257a1443f",
+				"dweb:/ipfs/QmTGA3KMCDsGpwRNWWJCztxanDEeFR6p9AQofMf2AqhSMY"
+			]
+		}
+	},
+	"version": 1
+}
