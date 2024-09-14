@@ -9,18 +9,42 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "nuevosaludo",
+						"name": "nombre_completo",
 						"type": "string"
 					}
 				],
-				"name": "guardarsaludo",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "Dame_tu_correo",
+						"type": "string"
+					}
+				],
+				"name": "guardarcorreo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "Dame_tu_numero_telefonico",
+						"type": "string"
+					}
+				],
+				"name": "guardarnumero",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "leerSaludo",
+				"name": "hola_name",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -33,7 +57,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "saludo_e",
+				"name": "leer_correo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "leer_numero",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -58,7 +95,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tarea_solidity.sol": "contrato01"
+			"tarea_solidity.sol": "tarea_solidity"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -73,11 +110,11 @@
 	},
 	"sources": {
 		"tarea_solidity.sol": {
-			"keccak256": "0x136c5ab65da3e291e317f3fed95717f9847a38c5d1b541e1aa3f901ab782215f",
+			"keccak256": "0x9beecedea61a8503b88599e4cb75641969e0565ef6b1d25258218a67f32313f0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9adcb50a75faae6076afe84718a62311203b20c9b8ab8253bfd45e5a1043a21a",
-				"dweb:/ipfs/QmSXYE5fcRmJVtAp7qAsizUXG4ikFGVAPrnmi5NGz7uNGS"
+				"bzz-raw://93db94debf14a28f5063409c878e3adffc12fe2cdc9b57e365152357eba1f3fa",
+				"dweb:/ipfs/QmTmWFB5Y22PfUqqxbbfG96xg9yzvD1J2CUADahMBobDud"
 			]
 		}
 	},

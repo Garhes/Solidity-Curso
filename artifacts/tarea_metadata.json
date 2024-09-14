@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "nuevosaludo",
+						"name": "Dame_tu_correo",
 						"type": "string"
 					}
 				],
@@ -20,20 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "leerSaludo",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "saludo_e",
+				"name": "leer_correo",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -58,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tarea_solidity.sol": "contrato01"
+			"tarea_solidity.sol": "tarea"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -73,11 +60,11 @@
 	},
 	"sources": {
 		"tarea_solidity.sol": {
-			"keccak256": "0x136c5ab65da3e291e317f3fed95717f9847a38c5d1b541e1aa3f901ab782215f",
+			"keccak256": "0x28dc4387f5a1f362c421b64cf8ec088684aab6f4313a1e47adca3ecad424623d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9adcb50a75faae6076afe84718a62311203b20c9b8ab8253bfd45e5a1043a21a",
-				"dweb:/ipfs/QmSXYE5fcRmJVtAp7qAsizUXG4ikFGVAPrnmi5NGz7uNGS"
+				"bzz-raw://bdffbfc3208381639407194d8d8c7277e6db886c735d8a45ac3269c5897e35d3",
+				"dweb:/ipfs/QmShjD33iUpvTDsungMjr7rqWdrEcMAFeCGo3soiiCCNT6"
 			]
 		}
 	},
