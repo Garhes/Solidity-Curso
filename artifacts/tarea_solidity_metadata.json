@@ -110,11 +110,11 @@
 	},
 	"sources": {
 		"tarea_solidity.sol": {
-			"keccak256": "0x9beecedea61a8503b88599e4cb75641969e0565ef6b1d25258218a67f32313f0",
+			"keccak256": "0xa01561e98400adbbca7190e675cdbae46ac6251919a2fc047c2c000c76016b35",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://93db94debf14a28f5063409c878e3adffc12fe2cdc9b57e365152357eba1f3fa",
-				"dweb:/ipfs/QmTmWFB5Y22PfUqqxbbfG96xg9yzvD1J2CUADahMBobDud"
+				"bzz-raw://0ee541c9e7c52406da8f18491fa2d97ecdcf85f7f31b9cf0c106285152534d41",
+				"dweb:/ipfs/QmdM2SRp5HCE86ecY37Bw6xqoMKmStBeUdFp7p9RFftWEJ"
 			]
 		}
 	},
