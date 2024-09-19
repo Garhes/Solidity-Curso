@@ -1,0 +1,68 @@
+{
+	"id": "cab78e53d77676f470f2892df48382b2",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.24",
+	"solcLongVersion": "0.8.24+commit.e11b9ed9",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contrato_2.sol": {
+				"content": "// SPDX-license-Indentifier: Mit\r\n// Primer contrato en Hola Mundo \r\n\r\n// SPDX-License-Identifier: MIT\r\n\r\npragma solidity 0.8.24;"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contrato_2.sol": {
+				"ast": {
+					"absolutePath": "contrato_2.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".24"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "106:23:0"
+						}
+					],
+					"src": "106:23:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
